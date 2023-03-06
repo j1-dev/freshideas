@@ -1,0 +1,11 @@
+body {
+  background-image: url('../images/bg.png');
+  padding: 0;
+  margin: 0;
+}
+
+#center-page {
+  width: 33%;
+  margin: auto;
+  background-color: white;
+}
