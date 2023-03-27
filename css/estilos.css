@@ -5,7 +5,105 @@ body {
 }
 
 #center-page {
-  width: 33%;
+  width: 45%;
   margin: auto;
   background-color: white;
+  position: relative;
+  padding-inline: 20px;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  padding-top: 40px;
+}
+
+#banner {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+/* NAV */
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  background-color: black;
+}
+
+nav > ul > li {
+  display: inline-flex;
+}
+
+nav > ul > li:hover {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER SECTOIN */
+
+header > section {
+  border: 5px gray solid;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+header > section > section {
+  /* float: left; */
+  position: absolute;
+  left: 0;
+  width: 55%;
+  text-align: center;
+}
+
+header > section > img {
+  width: 100%;
+}
+
+main {
+  float: left;
+  width: 60%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+main > section {
+  overflow: hidden;
+}
+
+main > section > article > section {
+  float: right;
+  width: 60%;
+}
+main > section > article > section > a {
+  color: black;
+  font-weight: 800;
+}
+
+main > section > article > img {
+  margin-top: 30px;
+  float: left;
+  width: 30%;
+}
+
+main > section > section {
+  float: right;
+  width: 55%;
+}
+
+main > section > img {
+  float: left;
+  width: 40%;
+  margin-top: 40px;
 }
