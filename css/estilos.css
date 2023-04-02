@@ -195,9 +195,47 @@ main > section > img {
   margin: 0;
 }
 
+/* ASIDE CSS */
+
 aside > article {
-  padding-block: 15px;
+  padding-block: 10px;
 }
+
+aside > article > section {
+  margin-bottom: 2.8vw;
+}
+
+aside > article > section > h4 {
+  font-size: 1.7vw;
+  font-weight: 500;
+  float: left;
+  margin-top: 0.1vw;
+}
+
+aside > article > section > time {
+  font-size: 1.4vw;
+  font-weight: 600;
+  float: left;
+  margin-left: 2.3vw;
+  background-color: rgba(255, 204, 51, 255);
+  padding: 5px;
+}
+
+aside > article > p {
+  margin-bottom: 5px;
+}
+
+aside > article > p > a {
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+aside > img {
+  width: 20vw;
+}
+
+/* FOOTER CSS */
 
 footer {
   height: 70px;
